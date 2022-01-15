@@ -23,6 +23,7 @@ section{
 }
 
 .header{
+   
     display: flex;
     justify-content: space-between;
     
@@ -54,7 +55,7 @@ section{
 
 .home{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     
 }
@@ -89,7 +90,7 @@ section{
 
 .home .right-side{
     max-width: 50%;
-    float: right;
+    
 }
 
 .home .right-side img{
@@ -97,8 +98,66 @@ section{
     float: right;
     align-items: center;
     transition: .3s;
+    
 }
 
 .home .right-side img:hover{
     transform: scale(1.1);
+}
+
+/* collection part start */
+
+.collection h2{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(66, 65, 65);
+    margin-bottom: 2rem;
+}
+
+.collection .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:2rem;
+}
+
+.collection .container .box{
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+   border-radius: .5rem;
+   padding: 1rem;
+}
+
+.collection .container .box img{
+    width: 100%;
+    
+}
+
+.collection .container .box h3{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.collection .container .box p{
+    font-size: 1.2rem;
+}
+
+.collection .container .box .stars{
+    font-size: .9rem;
+    font-weight: bold;
+    margin: .4rem 0;
+}
+
+.collection .container .box .stars i{
+    
+    color: rgb(252, 167, 10);
+}
+
+.collection .container .box .stars span{
+    color: rgb(66, 65, 65);
+    margin-left: .5rem;
+}
+
+.collection .container .box p{
+    color: rgb(66, 65, 65);
+    font-size: .9rem;
+    font-weight: bold;
 }
