@@ -275,5 +275,111 @@ section{
     border-radius: 50%;
     margin: .3rem;
     font-size: 1.1rem;
+    cursor: pointer;
 }
+
+
+
+
+
+
+/*/////// responsive part start//// */
+
+@media(max-width:768px){
+    .header nav{
+        display: none;
+    }
+
+    .header .logo h3{
+        font-size: 1.4rem;
+        color: rgb(51, 45, 45);
+        cursor: pointer;
+        
+    }
+
+    /* home part */
+
+    .home{
+       display: block;
+       text-align: center; 
+        
+    }
+    
+    .home .left-side{
+        max-width: 100%;
+    }
+    
+    .home .left-side h1{
+        font-size: 3.1rem;
+        font-weight: bold;
+        color: rgb(66, 65, 65);
+        margin: -3.5rem 0 .8rem 0;
+    }
+    
+    .home .left-side p{
+        margin-top: 1.7rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: rgb(66, 65, 65);
+    }
+    
+    .home .left-side .btn{
+        color: #fff;
+        background: rgb(250, 10, 110);
+        font-size: 1.1rem;
+        display: inline-block;
+        padding: .4rem 1.3rem;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .home .right-side{
+        max-width: 100%;
+    }
+    
+    
+    .home .right-side img{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+        margin-bottom: .5rem;
+        
+    }
+    
+    .home .right-side img:hover{
+        transform: scale(1.1);
+    }
+
+
+    /* collection part start */
+
+.collection h2{
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(66, 65, 65);
+    margin-bottom: 2rem;
+}
+
+.collection .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap:1.5rem;
+}
+
+/* review part start */
+
+
+.review .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+}
+
 
