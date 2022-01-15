@@ -22,6 +22,8 @@ section{
     padding: 3.5rem 8%;
 }
 
+/* header part start */
+
 .header{
    
     display: flex;
@@ -52,6 +54,7 @@ section{
     font-size: 1.2rem;
 }
 
+/* home part start */
 
 .home{
     display: flex;
@@ -132,7 +135,7 @@ section{
 }
 
 .collection .container .box h3{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: .5rem 0;
 }
 
@@ -161,3 +164,116 @@ section{
     font-size: .9rem;
     font-weight: bold;
 }
+
+.collection .btn{
+    color: rgb(250, 10, 110);
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: .4rem 1.3rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    float: right;
+}
+
+/* review part start */
+
+.review h2{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(66, 65, 65);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.review .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review  .box{
+    text-align: center;
+   
+    margin: 2rem 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+ 
+
+ 
+.review .box img{
+    height:7rem;
+    width:7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+ 
+.review .box .content p{
+    color:rgb(66, 65, 65);
+    font-size: 1rem;
+    padding:1rem 0;
+    text-align: center;
+}
+ 
+ 
+ 
+ 
+.review .box .content h3{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(66, 65, 65);
+}
+ 
+.review .box .content .stars i{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(252, 167, 10);
+}
+
+/* footer part start */
+
+.footer{
+    height: 16rem;
+    width: 100%;
+    background: #060627;
+}
+
+.footer h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 2.7rem;
+    padding-bottom: .7rem;
+    font-size: 1.5rem;
+}
+
+.footer h1 span{
+    
+    
+}
+
+.footer p{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer .social-media{
+    text-align: center;
+    padding: 1.3rem 0;
+}
+
+.footer .social-media i{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.233);
+    height: 2.1rem;
+    width: 2.1rem;
+    line-height: 2.1rem;
+    text-align: center;
+    border-radius: 50%;
+    margin: .3rem;
+    font-size: 1.1rem;
+}
+
